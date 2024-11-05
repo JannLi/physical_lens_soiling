@@ -27,20 +27,19 @@ output folder: result_lens_dirt
 
 ## 2. how to define mask with transparent thresholds
 We provide the raw transparency value of mask and users can choose their own threshold for further application according to their needs
-for example, we could define:
-for distort mask,  
-       0~100   = clean    
-       100 ~ 219  = semi_transparent
-       220~ 255  = Opaque
+for example, we could define:                
+for distort mask,                         
+	0 ~ 100 = clean             
+	100 ~ 219 = semi_transparent                      
+ 	220 ~ 255 = Opaque                
 
-"mud", "water_thick"
-for water_thick mask,  
-       255 * (0~ 0.02) = clean    
-       255 * (0.02~ 0.7 )  = semi_transparent
-       255 * (0.7~ 1)  = Opaque
-
-for mud mask,
-           255 * (0~ 0.02) = clean    
-           255 * (0.02~ 0.1 )  = semi_transparent
-           255 * (0.1~ 1)  = Opaque
+for water_thick mask,                      
+	255 * (0~ 0.02) = clean                 
+ 	255 * (0.02~ 0.7 )  = semi_transparent                         
+  	255 * (0.7~ 1)  = Opaque     
+   
+for mud mask,                      
+	255 * (0~ 0.02) = clean                
+ 	255 * (0.02~ 0.1 )  = semi_transparent                       
+  	255 * (0.1~ 1)  = Opaque
 
