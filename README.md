@@ -2,7 +2,7 @@ These codes correspond to the ones we use in the paper “Procedural Generation 
 
 Among them, code in folder “Procedural_Generation_Lens_Soiling” is our own code, and codes in folder “lens_dirt_by_augmentation” is the one we use to do comparative experiments with public data augmentation package.
 
-![Example Image](images/fig1.png)
+![Example Image](picture/fig1.png)
 
 ## 1、 Procedural_Generation_Lens_Soiling 
 ### 1.0. requrirement
