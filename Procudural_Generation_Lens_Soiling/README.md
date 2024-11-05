@@ -12,16 +12,16 @@ put images in 'image' folder and run python script
 		mud in folders:  image_mud, mask_mud 
 		water_thick in folders: image_water_thick, mask_water_thick, 	   
 
-\# add water droplet		
+### add water droplet		
 	python add_droplet_distort.py
 generate distor type and 2 folder
 	folders:  image_distort, mask_distort
 
-\# add sun glare
+### add sun glare
 	python add_sun_glare.py
 add sun glare effect
 
-\# add dust on lens
+### add dust on lens
 	python add_lensdust.py
 output folder: result_lens_dirt
 
